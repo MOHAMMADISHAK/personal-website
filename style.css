@@ -1,0 +1,218 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin : 0;
+}
+
+h1{
+    font-size: 40px;
+}
+h2{
+   
+    font-size: 40px;
+    font-weight: 600;
+}
+p{
+    color: dimgray;
+}
+.majenta-highlight{
+    color: #FF1493;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+
+.link-button{
+    text-decoration: none;
+    border-radius:10px ;
+    background-image: linear-gradient(45deg,#FF69B4,#FF1493);
+    padding: 10px 20px;
+    color: white;
+    font-weight: 700;
+    
+}
+.padding-text{
+    padding-top: 100px;
+}
+.padding-link{
+    padding-top: 20px;
+}
+
+/* middle banner */
+.middle-banner{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+   
+}
+
+/* experiences */
+
+.exp-area{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,#FF69B4,#FF1493);
+    border-image-slice: 1;
+}
+#baby-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+
+.single-exp{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+}
+.exp-padding{
+margin-top: 90px;
+}
+/* mywork */
+
+.image-width{
+     width: 30%;
+    float: left;
+    margin:5px;
+}
+.image-width img{
+    width: 100%;
+}
+.center{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.image-padding-2
+{
+    padding-top: 40px;
+    padding-left: 90px;
+}
+
+.my-work-banner{
+    padding-top: 50px;
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+
+   
+}
+/* lowerbanner */
+#client{
+    text-align: center;
+}
+.CEO{
+    padding-top: 30px;
+}
+h3{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+    font-weight: 40;
+}
+.link-button-2{
+    
+    border-radius:5px ;
+    background-image: linear-gradient(45deg,#FF69B4,#FF1493);
+    text-align: center;
+    margin-left: 350px;
+    margin-right: 350px;
+    padding-bottom: 40px;
+    
+}
+.paragraph-3{
+    color: white;
+    padding-top: 40px;
+}
+.link-button-3{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+  
+}
+
+
+.pargraph{
+text-align: center;
+padding-top: 20px;
+padding-left: 400px;
+padding-right:400px;
+padding-bottom: 30px;
+
+}
+.pargraph-2{
+    font-weight: 500;
+    color: black;
+}
+.lower-banner{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+
+/* footer */
+.one-fourth-width{
+    width: 20%;
+    float: left;
+    margin:5px;
+}
+.footer-margin{
+    margin-left: 250px;
+    padding-top: 40px;
+    
+}
+.link-button-4{
+    text-decoration: none;
+    border-radius:none ;
+    background-image: linear-gradient(45deg,#C71585,#C71585);
+    padding: 3px 3px;
+    color: white;
+    font-weight: 100;
+}
+.footer-header{
+text-align: left;
+color: white;
+}
+li{
+    list-style-type: disc;
+    color: white;
+}
+.footer-all{
+    background-image: url("images/footer-bg-2.png");
+    background-repeat: no-repeat;
+    background-size: 1600px 350px;
+   
+}
+.paragraph-4{
+color: white;
+}
+footer p{
+    text-align: center;
+    color: black;
+}
